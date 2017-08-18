@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ThirdViewController.swift
 //  BaseViewController
 //
 //  Created by donaldsong on 17-8-18.
@@ -8,11 +8,17 @@
 
 import UIKit
 
-class SecondViewController: BaseViewController {
+class ThirdViewController: BaseViewController {
 
     override func viewDidLoad() {
         print(self, #function)
         super.viewDidLoad()
+
+        let vc = storyboard!.instantiateViewController(withIdentifier: "Embedded") as! EmbeddedViewController
+        addChildViewController(vc)
+        view.addSubview(vc.view)
+        vc.view.frame = CGRect(x: 50, y: 150, width: view.bounds.width - 100, height: 200)
+        vc.didMove(toParentViewController: self)
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -99,4 +105,3 @@ class SecondViewController: BaseViewController {
         return vc
     }
 }
-

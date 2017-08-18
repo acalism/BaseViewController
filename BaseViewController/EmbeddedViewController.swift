@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  EmbbedViewController.swift
 //  BaseViewController
 //
 //  Created by donaldsong on 17-8-18.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class SecondViewController: BaseViewController {
+class EmbeddedViewController: BaseViewController {
 
     override func viewDidLoad() {
         print(self, #function)
         super.viewDidLoad()
+        view.backgroundColor = .red
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -99,4 +100,3 @@ class SecondViewController: BaseViewController {
         return vc
     }
 }
-

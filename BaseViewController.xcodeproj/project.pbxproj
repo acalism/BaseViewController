@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400E9F8D1F4696A800D97BAF /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E9F8C1F4696A800D97BAF /* BaseNavigationController.swift */; };
+		400E9F8F1F46982900D97BAF /* EmbeddedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E9F8E1F46982900D97BAF /* EmbeddedViewController.swift */; };
+		400E9F911F46C7E400D97BAF /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E9F901F46C7E400D97BAF /* ThirdViewController.swift */; };
+		400E9F931F46D37700D97BAF /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E9F921F46D37700D97BAF /* RootTabBarController.swift */; };
+		400E9F951F46E70100D97BAF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E9F941F46E70100D97BAF /* BaseViewController.swift */; };
 		40CC21471F467FC30026DE55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CC21461F467FC30026DE55 /* AppDelegate.swift */; };
 		40CC21491F467FC30026DE55 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CC21481F467FC30026DE55 /* FirstViewController.swift */; };
 		40CC214B1F467FC30026DE55 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CC214A1F467FC30026DE55 /* SecondViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400E9F8C1F4696A800D97BAF /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		400E9F8E1F46982900D97BAF /* EmbeddedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedViewController.swift; sourceTree = "<group>"; };
+		400E9F901F46C7E400D97BAF /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		400E9F921F46D37700D97BAF /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		400E9F941F46E70100D97BAF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		40CC21431F467FC30026DE55 /* BaseViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CC21461F467FC30026DE55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40CC21481F467FC30026DE55 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -57,8 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				40CC21461F467FC30026DE55 /* AppDelegate.swift */,
+				400E9F921F46D37700D97BAF /* RootTabBarController.swift */,
+				400E9F8C1F4696A800D97BAF /* BaseNavigationController.swift */,
+				400E9F941F46E70100D97BAF /* BaseViewController.swift */,
 				40CC21481F467FC30026DE55 /* FirstViewController.swift */,
 				40CC214A1F467FC30026DE55 /* SecondViewController.swift */,
+				400E9F901F46C7E400D97BAF /* ThirdViewController.swift */,
+				400E9F8E1F46982900D97BAF /* EmbeddedViewController.swift */,
 				40CC214C1F467FC30026DE55 /* Main.storyboard */,
 				40CC214F1F467FC30026DE55 /* Assets.xcassets */,
 				40CC21511F467FC30026DE55 /* LaunchScreen.storyboard */,
@@ -140,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400E9F8D1F4696A800D97BAF /* BaseNavigationController.swift in Sources */,
+				400E9F931F46D37700D97BAF /* RootTabBarController.swift in Sources */,
 				40CC214B1F467FC30026DE55 /* SecondViewController.swift in Sources */,
+				400E9F8F1F46982900D97BAF /* EmbeddedViewController.swift in Sources */,
 				40CC21471F467FC30026DE55 /* AppDelegate.swift in Sources */,
+				400E9F951F46E70100D97BAF /* BaseViewController.swift in Sources */,
+				400E9F911F46C7E400D97BAF /* ThirdViewController.swift in Sources */,
 				40CC21491F467FC30026DE55 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +328,7 @@
 				40CC21591F467FC30026DE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

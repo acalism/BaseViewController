@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  RootTabBarController.swift
 //  BaseViewController
 //
 //  Created by donaldsong on 17-8-18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: BaseViewController {
+class RootTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         print(self, #function)
@@ -44,7 +44,6 @@ class SecondViewController: BaseViewController {
         print(self, #function, animated)
         super.viewDidDisappear(animated)
     }
-
 
     // MARK: - ChildViewController
 
@@ -99,4 +98,3 @@ class SecondViewController: BaseViewController {
         return vc
     }
 }
-
